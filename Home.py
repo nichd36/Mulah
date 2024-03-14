@@ -4,7 +4,7 @@ import pandas as pd
 st.title("Nicholas Dylan's Assessment")
 
 def load_data():
-        df = pd.read_csv("/Users/nichdylan/Documents/DVID/Assignment 2/Table_Input.csv")
+        df = pd.read_csv("Table_Input.csv")
         return df
 
 def get_value(index):
