@@ -23,6 +23,7 @@ beta = get_value("A15") / get_value("A7")
 # Charlie = A13 * A12
 charlie = get_value("A13") * get_value("A12")
 
+st.header("Code snippet:")
 st.image("code_snippet.jpeg")
 
 st.write("Table 2 (output)")
