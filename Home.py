@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 
+st.set_page_config(page_title="Nicholas's Assessment")
+
 st.title("Nicholas Dylan's Assessment")
 
 def load_data():
