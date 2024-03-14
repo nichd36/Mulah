@@ -4,6 +4,7 @@ import pandas as pd
 st.set_page_config(page_title="Nicholas's Assessment")
 
 st.title("Nicholas Dylan's Assessment")
+st.markdown("Link to code: https://github.com/nichd36/Mulah/tree/main")
 
 def load_data():
         df = pd.read_csv("Table_Input.csv")
